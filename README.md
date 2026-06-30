@@ -87,11 +87,11 @@ GROUP BY 1, 2
 
 ## Insights Dashboard View
 
-![Cohort Analysis Dashboard](images/cohort-analysis.png)
+![Cohort Analysis Dashboard](images/cohort.png)
 
-![Churn Segmentation Insight](images/churn-segmentation.png)
+![Churn Segmentation Insight](images/segment.png)
 
-[Live link to full report]()
+
 
 ---
 
