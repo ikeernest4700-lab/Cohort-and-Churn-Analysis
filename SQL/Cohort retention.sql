@@ -1,5 +1,4 @@
-
- WITH first_session AS (
+WITH first_session AS (
          SELECT o.website_session_id,
             ((o.items_purchased)::double precision * o.price_usd) AS revenue,
             ((o.price_usd - o.cogs_usd) * (o.items_purchased)::double precision) AS profit,
@@ -30,7 +29,7 @@
     website_session_id,
     user_id,
     created_at,
-	date_trunc('month', created_at) as created_tru
+    date_trunc('month', created_at) AS created_tru,
     product_name,
     revenue,
     profit,
